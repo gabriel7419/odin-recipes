@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: darkseagreen;
+    color: white;
+}
+
+.header {
+    margin: 0px;
+    padding: 5px;
+    background-color: darkblue;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.main-recipes {
+    text-align: center;
+    margin-top: 150px;
+    background-color: darksalmon;
+    border-radius: 15px;
+    padding: 1%;
+    margin-left: 125px;
+    margin-right: 125px;
+    line-height: 35px;
+    border: 3px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+    font-weight: bolder;
+}
