@@ -1,13 +1,15 @@
 body {
     margin: 0;
-    background-color: darkseagreen;
-    color: white;
+    background-color: #FEFDED;
+    color: black;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
     margin: 0px;
     padding: 5px;
-    background-color: darkblue;
+    background-color: #FA7070;
     display: block;
     text-align: center;
     border-bottom: 2px solid white;
@@ -16,7 +18,7 @@ body {
 .main-recipes {
     text-align: center;
     margin-top: 150px;
-    background-color: darksalmon;
+    background-color: #FEFDED;
     border-radius: 15px;
     padding: 1%;
     margin-left: 125px;
@@ -33,4 +35,42 @@ a {
 a:hover {
     color: red;
     font-weight: bolder;
+}
+
+.desc {
+    color: black;
+    display: block;
+    text-align: center;
+    background-color: #C6EBC5;
+    font-size: larger;
+    border: 2px solid black;
+}
+
+.desc > img {
+    width: 35%;
+    height: 35%;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.rec {
+    background-color: #A1C398;
+    text-align: center;
+    font-size: medium;
+    width: 520px; /* Defina a largura desejada da caixa */
+    padding: 20px; /* Adicione algum preenchimento interno para o conteúdo */
+    border: 3px solid black;
+    position: absolute;
+    top: 80%; /* Posiciona a partir do topo do elemento pai */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+li {
+    display: list-item;
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
 }
